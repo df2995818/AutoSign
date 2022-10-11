@@ -7,17 +7,17 @@ import  base64
 import execjs
 from Crypto.Cipher import AES
 print('请输入你的账号：',end='')
-username = input()  # 账号
+username = 13181236211  # 账号
 print('请输入你的密码：',end='')
-passwd = input()  # 密码
+passwd = 'abc2995818'  # 密码
 ifhavesign = ''
 # server酱推送
-SCKEY = ''
+SCKEY = 'SCT176046T7nMYovpzxlYTMi83xgmfC0jz'
 name = ''  # 签到后老师那里显示的名字,空着的话就是默认
-address = '火星'  # 地址
+address = '贵州'  # 地址
 latitude = '32.2829260000'  # 纬度
 longitude = '43.9237990000'  # 经度
-picname = 'a.png'  # 同目录下的照片名字,如果不用就留空 picname='',不然会报错...
+picname = ''  # 同目录下的照片名字,如果不用就留空 picname='',不然会报错...
 # 设置轮询间隔(单位:秒,建议不低于5)
 speed = 6
 headers = {
